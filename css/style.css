@@ -1,0 +1,22 @@
+
+.cats {
+  max-width: 500px;
+}
+h1 {
+text-align: center;
+}
+ul li {
+  padding: 10px;
+}
+.cats_img {
+  width: 100px;
+  vertical-align: middle;
+  padding: 15px;
+  
+}
+.cats_link {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
