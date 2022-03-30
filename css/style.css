@@ -1,22 +1,41 @@
-
-.cats {
-  max-width: 500px;
+body {
+  display: flex;
+box-sizing: border-box;
 }
-h1 {
-text-align: center;
-}
-ul li {
-  padding: 10px;
-}
-.cats_img {
-  width: 100px;
-  vertical-align: middle;
-  padding: 15px;
-  
-}
-.cats_link {
-  font-size: 20px;
-  text-decoration: none;
-  color: black;
+.link {
   display: block;
+  width: 250px;
+  /* min-height: 200px; */
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Huawei_Matebook_2-in-1_tablet_with_Windows_10_%2826627141971%29.jpg/290px-Huawei_Matebook_2-in-1_tablet_with_Windows_10_%2826627141971%29.jpg);
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.wrap {
+  margin-right: 10px;
+  width: 250px;
+}
+.link-2 {
+  display: block;
+  position: relative;
+  width: 250px;
+  height: 193px;
+}
+
+.link_img {
+  position: absolute;
+  z-index: -10;
+  width: 250px;
+  height: 193px;
+}
+.link-3 {
+  position:absolute;
+  display: block;
+  width: 250px;
+  height: 193px;
+}
+
+.wrap-2 {
+  width: 250px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Huawei_Matebook_2-in-1_tablet_with_Windows_10_%2826627141971%29.jpg/290px-Huawei_Matebook_2-in-1_tablet_with_Windows_10_%2826627141971%29.jpg);
+  background-repeat: no-repeat;
 }
